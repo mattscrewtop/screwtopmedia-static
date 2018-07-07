@@ -1,0 +1,128 @@
+.nav-mobile-container[_ngcontent-vjt-27] {
+  background-color: #262626;
+  background-image: url("/assets/images/Navigation-BG.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 120vh;
+  position: relative; }
+  .nav-mobile-container__wrapper[_ngcontent-vjt-27] {
+    background-color: black;
+    height: 120vh; }
+  .nav-mobile-container__slideout-menu[_ngcontent-vjt-27] {
+    left: 2rem;
+    position: absolute;
+    top: 1.5rem; }
+  .nav-mobile-container__title[_ngcontent-vjt-27] {
+    color: #ccc;
+    font-family: "OpenSansBold";
+    font-size: 1rem;
+    letter-spacing: 0;
+    line-height: 2.25rem;
+    padding: 0.5rem 0; }
+
+header[role=logo][_ngcontent-vjt-27]   h1[_ngcontent-vjt-27] {
+  font-size: 1.2em;
+  padding: 12px;
+  float: left;
+  color: #fff;
+  text-decoration: none; }
+
+header[role=banner][_ngcontent-vjt-27] {
+  background-color: #262626;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+  color: #fff;
+  left: 0;
+  padding: 4px 4px 0px 4px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1000; }
+  header[role=banner][_ngcontent-vjt-27]   .btn--clear[_ngcontent-vjt-27] {
+    color: #fff;
+    float: left;
+    padding: 6px 0 0 0;
+    min-width: 54px; }
+    header[role=banner][_ngcontent-vjt-27]   .btn--clear[_ngcontent-vjt-27]   img[_ngcontent-vjt-27] {
+      width: 25px; }
+
+stm-nav[_ngcontent-vjt-27]     ul.menu-bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 120px; }
+  stm-nav[_ngcontent-vjt-27]     ul.menu-bar > li {
+    color: #fff;
+    display: block;
+    font-family: "OpenSansRegular";
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 18px 13px 16px 26px;
+    position: relative;
+    text-decoration: none; }
+    stm-nav[_ngcontent-vjt-27]     ul.menu-bar > li:hover, stm-nav[_ngcontent-vjt-27]     ul.menu-bar > li:active, stm-nav[_ngcontent-vjt-27]     ul.menu-bar > li:focus {
+      background: #f2f2f2;
+      color: #363636;
+      cursor: pointer; }
+      stm-nav[_ngcontent-vjt-27]     ul.menu-bar > li:hover a, stm-nav[_ngcontent-vjt-27]     ul.menu-bar > li:active a, stm-nav[_ngcontent-vjt-27]     ul.menu-bar > li:focus a {
+        color: #363636; }
+    stm-nav[_ngcontent-vjt-27]     ul.menu-bar > li a {
+      color: #fff; }
+
+main[_ngcontent-vjt-27] {
+  background-color: #F8F8F8;
+  padding-top: 3.5rem;
+  min-height: 120vh; }
+  @media only screen and (min-width: 64rem) {
+    main[_ngcontent-vjt-27] {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+          flex-direction: column; } }
+
+{
+  background-color: #F3F5F8;
+  border-top: solid 1px #c1c1c1;
+  display: block;
+  height: 50px;
+  opacity: 0.95; }
+
+.footer__container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 2rem; }
+
+.footer__item {
+  background-color: white;
+  border: 1px dashed;
+  font-size: 1.5rem;
+  margin: 1rem .5rem;
+  padding: 1rem;
+  width: 240px; }
+
+.footer   .section-title {
+  font-size: 1.5rem; }
+
+.footer   .emailto {
+  font-size: 1rem; }
+
+.footer   stm-address-list     stm-address-item {
+  font-size: 1rem; }
+  .footer   stm-address-list     stm-address-item .vcard {
+    font-size: 1rem; }
+
+.footer   stm-social-media-list     stm-social-media-item {
+  display: inline-block;
+  font-size: 2rem;
+  padding: 0 1rem; }
+  .footer   stm-social-media-list     stm-social-media-item a {
+    color: #ccc; }
+
+.footer-aditional {
+  background-color: #262626;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  padding: 1rem; }

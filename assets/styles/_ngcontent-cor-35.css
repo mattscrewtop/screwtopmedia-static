@@ -1,0 +1,108 @@
+.jwplayer[_ngcontent-cor-35]   video.jw-stretch-fill[_ngcontent-cor-35]   video[_ngcontent-cor-35] {
+  -o-object-fit: unset !important;
+  object-fit: unset !important; }
+
+video[_ngcontent-cor-35] {
+  -o-object-fit: unset !important;
+  object-fit: unset !important; }
+
+@media only screen and (min-width: 48rem) {
+  .page-container[_ngcontent-cor-35]   header[role=page][_ngcontent-cor-35] {
+    height: 25.63rem; } }
+
+@media only screen and (min-width: 64.0625rem) {
+  .page-container[_ngcontent-cor-35]   header[role=page][_ngcontent-cor-35] {
+    height: 31rem; } }
+
+@media only screen and (min-width: 48rem) {
+  .page-container[_ngcontent-cor-35]   header[role=page][_ngcontent-cor-35]   cdf-video-background[_ngcontent-cor-35] {
+    height: 25.63rem; } }
+
+@media only screen and (min-width: 64.0625rem) {
+  .page-container[_ngcontent-cor-35]   header[role=page][_ngcontent-cor-35]   cdf-video-background[_ngcontent-cor-35] {
+    height: 31rem; } }
+
+.page-container[_ngcontent-cor-35]   header[role=page][_ngcontent-cor-35]   cdf-video-background[_ngcontent-cor-35]     video {
+  -o-object-fit: unset;
+  object-fit: unset; }
+  @media only screen and (min-width: 64.0625rem) {
+    .page-container[_ngcontent-cor-35]   header[role=page][_ngcontent-cor-35]   cdf-video-background[_ngcontent-cor-35]     video {
+      -o-object-fit: contain;
+      object-fit: contain; } }
+
+@media only screen and (min-width: 64.0625rem) {
+  .page-container[_ngcontent-cor-35]   header[role=page][_ngcontent-cor-35] {
+    position: relative; }
+    .page-container[_ngcontent-cor-35]   header[role=page][_ngcontent-cor-35]   .shadow[_ngcontent-cor-35] {
+      background-color: rgba(0, 0, 0, 0.45);
+      border-radius: 0.3125rem;
+      padding: 2.5rem 0;
+      text-align: center; }
+    .page-container[_ngcontent-cor-35]   header[role=page][_ngcontent-cor-35]   .row[_ngcontent-cor-35] {
+      max-width: 100% !important;
+      width: 100% !important; }
+  .header-container[_ngcontent-cor-35] {
+    border: solid 10px chartreuse;
+    right: 0 !important; }
+  .main-container[_ngcontent-cor-35] {
+    position: relative;
+    background-color: #fff; }
+  stm-social-media-list[_ngcontent-cor-35]     stm-social-media-item {
+    display: inline-block;
+    font-size: 2.75rem;
+    margin: 0 0.5rem; }
+    stm-social-media-list[_ngcontent-cor-35]     stm-social-media-item a {
+      color: #ccc; }
+  
+  .learnMoreContainer[_ngcontent-cor-35] {
+    opacity: 1;
+    padding: 1.25rem 0 0 0;
+    transition: all 1.5s ease-out; }
+    .learnMoreContainer__title[_ngcontent-cor-35] {
+      color: #F24F05;
+      font-family: "OpenSansBold";
+      font-size: 2rem; }
+  
+  .serviceContainer[_ngcontent-cor-35] {
+    opacity: 0;
+    padding: 3.125rem 0 4rem 0;
+    text-align: center;
+    transition: all 2.25s ease-out; }
+  
+  .projectContainer[_ngcontent-cor-35] {
+    -webkit-clip-path: inset(0 0 0 0);
+            clip-path: inset(0 0 0 0); }
+  
+  .processContainer[_ngcontent-cor-35] {
+    color: #fff;
+    background-color: #262626;
+    text-align: center;
+    padding: 5.5rem 0;
+    position: relative;
+    overflow: hidden; }
+    .processContainer[_ngcontent-cor-35]:before {
+      background: url("/assets/images/Texture-Background.png") no-repeat;
+      background-position: 50% 0;
+      -ms-background-size: cover;
+      background-size: cover;
+      content: '';
+      display: block;
+      position: absolute;
+      height: 100%;
+      left: 0;
+      opacity: 0.6;
+      top: 0;
+      width: 100%;
+      z-index: 1; }
+  
+  .productionContainer[_ngcontent-cor-35] {
+    color: #262626;
+    background-color: #fff;
+    padding: 4.25rem 0;
+    position: relative;
+    overflow: hidden; }
+  
+  .fade-in[_ngcontent-cor-35] {
+    opacity: 1; }
+  .fade-out[_ngcontent-cor-35] {
+    opacity: 0; } }

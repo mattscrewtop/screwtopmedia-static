@@ -1,0 +1,42 @@
+@import '../../styles/variables';
+@import '../../styles/breakpoints';
+
+body 
+{
+	width: 100%;
+	height: 100%;
+}
+
+.slideout-menu 
+{
+	background-color: $color-background-black;
+	bottom: 0;
+	display: none;
+	left: 0;
+	overflow-y: auto;
+	-webkit-overflow-scrolling: touch;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 0;
+}
+
+.slideout-panel 
+{
+	background-color: $color-white;
+	position:relative;
+	z-index: 1;
+}
+
+.slideout-open,
+.slideout-open body,
+.slideout-open .slideout-panel 
+{
+	border: solid 0px $color-border;
+	overflow: hidden;
+}
+
+.slideout-open .slideout-menu 
+{
+	display: block;
+}

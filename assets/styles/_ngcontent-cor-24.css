@@ -1,0 +1,72 @@
+@media only screen and (min-width: 64.0625rem) {
+  footer[role=topFooter][_ngcontent-cor-24] {
+    border-top: solid 1px #e1e8ed;
+    margin-top: 4rem;
+    padding: 2rem 0 1rem 0;
+    position: relative; }
+    footer[role=topFooter][_ngcontent-cor-24]   .footer__background[_ngcontent-cor-24] {
+      bottom: 0;
+      left: 0;
+      position: absolute;
+      right: 0;
+      top: 0;
+      z-index: -1; }
+    footer[role=topFooter][_ngcontent-cor-24]   .callout[_ngcontent-cor-24] {
+      background-color: rgba(0, 0, 0, 0.1);
+      border-radius: 0.325rem; }
+    footer[role=topFooter][_ngcontent-cor-24]   h2.section-title[_ngcontent-cor-24] {
+      border-color: #ccc;
+      color: #ccc;
+      font-size: 1.5rem;
+      margin: auto;
+      width: 270px; }
+    footer[role=topFooter][_ngcontent-cor-24]   .emailto[_ngcontent-cor-24] {
+      color: #ccc;
+      display: inline-block;
+      margin-top: 1rem; }
+    footer[role=topFooter][_ngcontent-cor-24]   stm-nav[_ngcontent-cor-24]     ul.menu-bar {
+      list-style-type: none;
+      margin: 0;
+      padding: 0; }
+      footer[role=topFooter][_ngcontent-cor-24]   stm-nav[_ngcontent-cor-24]     ul.menu-bar > li {
+        font-size: 1.25rem;
+        margin: 0.125rem 0; }
+        footer[role=topFooter][_ngcontent-cor-24]   stm-nav[_ngcontent-cor-24]     ul.menu-bar > li a {
+          color: #ccc; }
+    footer[role=topFooter][_ngcontent-cor-24]   stm-services-list-name[_ngcontent-cor-24]     ul.service-list {
+      list-style-type: none;
+      margin: 0;
+      padding: 0; }
+      footer[role=topFooter][_ngcontent-cor-24]   stm-services-list-name[_ngcontent-cor-24]     ul.service-list > li {
+        font-size: 1.25rem;
+        margin: 0.125rem 0; }
+        footer[role=topFooter][_ngcontent-cor-24]   stm-services-list-name[_ngcontent-cor-24]     ul.service-list > li a {
+          color: #ccc; }
+    footer[role=topFooter][_ngcontent-cor-24]   stm-address-list[_ngcontent-cor-24]     .vcard, footer[role=topFooter][_ngcontent-cor-24]   stm-address-list[_ngcontent-cor-24]     abbr {
+      color: #ccc;
+      font-size: 1.25rem; }
+      footer[role=topFooter][_ngcontent-cor-24]   stm-address-list[_ngcontent-cor-24]     .vcard .adr a, footer[role=topFooter][_ngcontent-cor-24]   stm-address-list[_ngcontent-cor-24]     abbr .adr a {
+        color: #ccc;
+        text-decoration: none; }
+    footer[role=topFooter][_ngcontent-cor-24]   stm-phone-number-list[_ngcontent-cor-24]     {
+      font-size: 1.25rem; }
+      footer[role=topFooter][_ngcontent-cor-24]   stm-phone-number-list[_ngcontent-cor-24]     a {
+        color: #ccc; }
+      footer[role=topFooter][_ngcontent-cor-24]   stm-phone-number-list[_ngcontent-cor-24]     dl dt {
+        display: none; }
+    footer[role=topFooter][_ngcontent-cor-24]   stm-social-media-list[_ngcontent-cor-24]     stm-social-media-item {
+      display: inline-block;
+      font-size: 2rem;
+      padding: 0 1rem; }
+      footer[role=topFooter][_ngcontent-cor-24]   stm-social-media-list[_ngcontent-cor-24]     stm-social-media-item a {
+        color: #ccc; }
+    footer[role=topFooter][_ngcontent-cor-24]   cdf-media[_ngcontent-cor-24] {
+      height: 100%;
+      width: 100%; }
+  footer[role=bottomFooter][_ngcontent-cor-24] {
+    background-color: #262626;
+    color: #636363;
+    font-family: "OpenSansRegular";
+    font-size: 0.75rem;
+    height: 3rem;
+    line-height: 3rem; } }

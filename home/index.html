@@ -1,0 +1,747 @@
+<html><head>
+	<title>Screwtop Media - Digital Marketing Solutions</title>
+	<base href="/">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="msapplication-tap-highlight" content="no">
+	<meta name="description" content="ScrewtopMedia">
+	<meta name="theme-color" content="#0A96CB">
+	<meta name="author" content="Matt Ferrell">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <link rel="icon" sizes="192x192" href="assets/images/icon.png">
+    <link rel="apple-touch-icon" href="assets/images/icon.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/images/launcher-icon-2x.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/images/launcher-icon-3x.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/images/launcher-icon-4x.png">
+    <link rel="apple-touch-startup-image" href="assets/images/splash.png">
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+	<link rel="manifest" href="manifest.json">
+
+	<!--STYLES-->
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
+
+	<!-- LIBRARIES -->
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<script async="" src="https://www.google-analytics.com/analytics.js"></script><script src="/assets/js/google-analytics.js"></script>
+<link rel="stylesheet" href="/assets/fonts/fontawesome-all.css">
+<link rel="stylesheet" href="/assets/styles/slideout.css">
+<link rel="stylesheet" href="/assets/styles/toast.css">
+<link rel="stylesheet" href="/assets/styles/main.css">
+<link rel="stylesheet" href="/assets/styles/_ngcontent-cor-35.css">
+<link rel="stylesheet" href="/assets/styles/_ngcontent-cor-25.css">
+<link rel="stylesheet" href="/assets/styles/_ngcontent-cor-23.css">
+<link rel="stylesheet" href="/assets/styles/_ngcontent-cor-24.css">
+<link rel="stylesheet" href="/assets/styles/_ngcontent-cor-7.css">
+<link rel="stylesheet" href="/assets/styles/_ngcontent-cor-2.css">
+<link rel="stylesheet" href="/assets/styles/_nghost-cor-1.css">
+<link rel="stylesheet" href="/assets/styles/_ngcontent-cor-19.css">
+<link rel="stylesheet" href="/assets/styles/_ngcontent-cor-32.css">
+<link rel="stylesheet" href="/assets/styles/_ngcontent-cor-8.css">
+<link rel="stylesheet" href="/assets/styles/_ngcontent-cor-14.css">
+<link rel="stylesheet" href="/assets/styles/_ngcontent-cor-3.css">
+<link rel="stylesheet" href="/assets/styles/_ngcontent-cor-6.css">
+<link rel="stylesheet" href="/assets/styles/_ngcontent-cor-36.css">
+<link rel="stylesheet" href="/assets/styles/_ngcontent-cor-27.css">
+<link rel="stylesheet" href="/assets/styles/_ngcontent-cor-26.css">
+<link rel="stylesheet" href="/assets/styles/_ngcontent-cor-31.css">
+</head>
+
+<body>
+	<stm-app ng-version="2.4.10" _nghost-cor-41=""><router-outlet _ngcontent-cor-41=""></router-outlet><stm-page-home class="component"><stm-home-mobile _nghost-cor-36=""><stm-mobile-header _ngcontent-cor-36="" title="Welcome" _nghost-cor-27=""><section _ngcontent-cor-27="" class="nav-mobile-container">
+	<section _ngcontent-cor-27="" class="nav-mobile-container__wrapper">
+
+		
+		<nav _ngcontent-cor-27="" class="nav-mobile-container__slideout-menu" id="menu">
+			<header _ngcontent-cor-27="" role="logo">
+				<h1 _ngcontent-cor-27="" class="logo">Screwtop Media</h1>
+			</header>
+
+			<stm-nav _ngcontent-cor-27="" _nghost-cor-28="">
+				<ul _ngcontent-cor-28="" class="menu-bar">
+					
+					<li _ngcontent-cor-28="" class="active">
+						<a _ngcontent-cor-28="" routerlink="/home" href="/home">Home</a>
+					</li>
+					<li _ngcontent-cor-28="">
+						<a _ngcontent-cor-28="" routerlink="/services" href="/services/list/">Services</a>
+					</li>
+					<li _ngcontent-cor-28="">
+						<a _ngcontent-cor-28="" routerlink="/projects" href="/projects/list/">Portfolio</a>
+					</li>
+					<li _ngcontent-cor-28="">
+						<a _ngcontent-cor-28="" routerlink="/about-us" href="/about-us">About Us</a>
+					</li>
+					<li _ngcontent-cor-28="">
+						<a _ngcontent-cor-28="" routerlink="/contact-us" href="/contact-us">Contact Us</a>
+					</li>
+				</ul>
+			</stm-nav>
+		</nav>
+
+		
+		<main _ngcontent-cor-27="" id="panel" class=" slideout-panel">
+			
+			<header _ngcontent-cor-27="" class="text-center" role="banner">
+
+				<section _ngcontent-cor-27="" class="row align-center align-middle">
+
+					
+					<div _ngcontent-cor-27="" class="column shrink">
+						<button _ngcontent-cor-27="" aria-label="Open Menu" class="btn btn--clear">
+							<img _ngcontent-cor-27="" src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMS4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDUzIDUzIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1MyA1MzsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSIzMnB4IiBoZWlnaHQ9IjMycHgiPgo8Zz4KCTxnPgoJCTxwYXRoIGQ9Ik0yLDEzLjVoNDljMS4xMDQsMCwyLTAuODk2LDItMnMtMC44OTYtMi0yLTJIMmMtMS4xMDQsMC0yLDAuODk2LTIsMlMwLjg5NiwxMy41LDIsMTMuNXoiIGZpbGw9IiNGRkZGRkYiLz4KCQk8cGF0aCBkPSJNMiwyOC41aDQ5YzEuMTA0LDAsMi0wLjg5NiwyLTJzLTAuODk2LTItMi0ySDJjLTEuMTA0LDAtMiwwLjg5Ni0yLDJTMC44OTYsMjguNSwyLDI4LjV6IiBmaWxsPSIjRkZGRkZGIi8+CgkJPHBhdGggZD0iTTIsNDMuNWg0OWMxLjEwNCwwLDItMC44OTYsMi0ycy0wLjg5Ni0yLTItMkgyYy0xLjEwNCwwLTIsMC44OTYtMiwyUzAuODk2LDQzLjUsMiw0My41eiIgZmlsbD0iI0ZGRkZGRiIvPgoJPC9nPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=">
+						</button>
+					</div>
+
+					
+					<div _ngcontent-cor-27="" class="column text-center">
+						<h1 _ngcontent-cor-27="" class="nav-mobile-container__title">Screwtop Media</h1>
+					</div>
+
+
+					
+					<div _ngcontent-cor-27="" class="column shrink">
+						<a _ngcontent-cor-27="" href="/home">
+							<h2 _ngcontent-cor-27="" class="logo">Screwtop Media</h2>
+						</a>
+					</div>
+
+				</section>
+
+			</header>
+
+			
+			
+
+	<section _ngcontent-cor-36="" class="page-container">
+
+		
+		<header _ngcontent-cor-36="" role="page" style="display: table;table-layout: fixed;">
+			
+				<section _ngcontent-cor-36="" class="cdf-background-image" style="background-image: url(&quot;/assets/images/68560192e33c1fc8a661.gif&quot;);min-height: 90vw;min-width: 98.9vw;background-size:cover;background-repeat:no-repeat;">		
+				</section>
+			
+
+			
+
+		</header>
+
+		<div _ngcontent-cor-36="" class="main-container">
+			 
+            <div _ngcontent-cor-36="" class="serviceContainer" id="serviceContainer">
+                <stm-services-list _ngcontent-cor-36="" _nghost-cor-19=""><section _ngcontent-cor-19="" class="service-list-container text-center">
+	<section _ngcontent-cor-19="" class="row align-center">
+		<div _ngcontent-cor-19="" class="column">
+			<h2 _ngcontent-cor-19="" class="page-title">Services</h2>
+		</div>
+	</section>
+	<section _ngcontent-cor-19="" class="row align-center">
+		<div _ngcontent-cor-19="" class="column large-8">
+			<h3 _ngcontent-cor-19="" class="description-service">Screwtop Media is a digital marketing services company that specializes in digital, web-based, marketing solutions designed to take your company’s reputation, visibility and sales to the next level. We provide the service, knowledge and right tools that will help grow your business.</h3>
+		</div>
+	</section>
+
+	<stm-media-slider _ngcontent-cor-19="" _nghost-cor-14=""><cdf-media-slider _ngcontent-cor-14="" _nghost-cor-3="">
+	<ul _ngcontent-cor-3="" class="media-slider-flex-container">
+
+		<li _ngcontent-cor-3="" class="media-slider-flex-item" style="opacity: 1;">
+			
+			
+			
+			<section _ngcontent-cor-3="" class="cdf-media-pane-container">		
+				
+				<cdf-media _ngcontent-cor-3="" _nghost-cor-2="" class="type-not-supplied media-is-image">
+	
+	<cdf-image _ngcontent-cor-2="" _nghost-cor-1="">
+	<section _ngcontent-cor-1="" class="cdf-background-image" style="background-image: url(&quot;/assets/images/d408b76216c6a1cd26c6.jpg&quot;);">		
+	</section>
+	</cdf-image>
+
+	
+	
+
+	<div _ngcontent-cor-2="">
+		
+								
+				
+	</div>
+
+	
+
+	
+	<section _ngcontent-cor-2="" class="cdf-media-title-container">
+		<a href="/services/marketing-consultation/" _ngcontent-cor-2="">
+			<section _ngcontent-cor-2="" class="cdf-media-title-wrapper">
+				<h2 _ngcontent-cor-2="" class="cdf-media-title">Marketing Consulting</h2>
+			</section>
+		</a>
+	</section>
+	</cdf-media>		
+			</section>
+
+			
+				
+			
+		</li><li _ngcontent-cor-3="" class="media-slider-flex-item" style="opacity: 1;">
+			
+			
+			
+			<section _ngcontent-cor-3="" class="cdf-media-pane-container">		
+				
+				<cdf-media _ngcontent-cor-3="" _nghost-cor-2="" class="type-not-supplied media-is-image">
+	
+	<cdf-image _ngcontent-cor-2="" _nghost-cor-1="">
+	<section _ngcontent-cor-1="" class="cdf-background-image" style="background-image: url(&quot;/assets/images/89691bdffd3f76584943.jpg&quot;);">		
+	</section>
+	</cdf-image>
+
+	
+	
+
+	<div _ngcontent-cor-2="">
+		
+								
+				
+	</div>
+
+	
+
+	
+	<section _ngcontent-cor-2="" class="cdf-media-title-container">
+		<a href="/services/websites-mobile-apps/" _ngcontent-cor-2="">
+			<section _ngcontent-cor-2="" class="cdf-media-title-wrapper">
+				<h2 _ngcontent-cor-2="" class="cdf-media-title">Web and Mobile App Development</h2>
+			</section>
+		</a>
+	</section>
+	</cdf-media>		
+			</section>
+
+			
+				
+			
+		</li><li _ngcontent-cor-3="" class="media-slider-flex-item" style="opacity: 1;">
+			
+			
+			
+			<section _ngcontent-cor-3="" class="cdf-media-pane-container">		
+				
+				<cdf-media _ngcontent-cor-3="" _nghost-cor-2="" class="type-not-supplied media-is-image">
+	
+	<cdf-image _ngcontent-cor-2="" _nghost-cor-1="">
+	<section _ngcontent-cor-1="" class="cdf-background-image" style="background-image: url(&quot;/assets/images/07b5315d71060c42eaf2.jpg&quot;);">		
+	</section>
+	</cdf-image>
+
+	
+	
+
+	<div _ngcontent-cor-2="">
+		
+								
+				
+	</div>
+
+	
+
+	
+	<section _ngcontent-cor-2="" class="cdf-media-title-container">
+		<a href="/services/email-text-marketing/" _ngcontent-cor-2="">
+			<section _ngcontent-cor-2="" class="cdf-media-title-wrapper">
+				<h2 _ngcontent-cor-2="" class="cdf-media-title">Email and Text Marketing</h2>
+			</section>
+		</a>
+	</section>
+	</cdf-media>		
+			</section>
+
+			
+				
+			
+		</li><li _ngcontent-cor-3="" class="media-slider-flex-item" style="opacity: 1;">
+			
+			
+			
+			<section _ngcontent-cor-3="" class="cdf-media-pane-container">		
+				
+				<cdf-media _ngcontent-cor-3="" _nghost-cor-2="" class="type-not-supplied media-is-image">
+	
+	<cdf-image _ngcontent-cor-2="" _nghost-cor-1="">
+	<section _ngcontent-cor-1="" class="cdf-background-image" style="background-image: url(&quot;/assets/images/2f32691cea94c9856578.jpg&quot;);">		
+	</section>
+	</cdf-image>
+
+	
+	
+
+	<div _ngcontent-cor-2="">
+		
+								
+				
+	</div>
+
+	
+
+	
+	<section _ngcontent-cor-2="" class="cdf-media-title-container">
+		<a href="/services/creative-design/" _ngcontent-cor-2="">
+			<section _ngcontent-cor-2="" class="cdf-media-title-wrapper">
+				<h2 _ngcontent-cor-2="" class="cdf-media-title">Creative Design</h2>
+			</section>
+		</a>
+	</section>
+	</cdf-media>		
+			</section>
+
+			
+				
+			
+		</li><li _ngcontent-cor-3="" class="media-slider-flex-item" style="opacity: 1;">
+			
+			
+			
+			<section _ngcontent-cor-3="" class="cdf-media-pane-container">		
+				
+				<cdf-media _ngcontent-cor-3="" _nghost-cor-2="" class="type-not-supplied media-is-image">
+	
+	<cdf-image _ngcontent-cor-2="" _nghost-cor-1="">
+	<section _ngcontent-cor-1="" class="cdf-background-image" style="background-image: url(&quot;/assets/images/fe538e9995d83c4575f4.jpg&quot;);">		
+	</section>
+	</cdf-image>
+
+	
+	
+
+	<div _ngcontent-cor-2="">
+		
+								
+				
+	</div>
+
+	
+
+	
+	<section _ngcontent-cor-2="" class="cdf-media-title-container">
+		<a href="/services/seo-social-media/" _ngcontent-cor-2="">
+			<section _ngcontent-cor-2="" class="cdf-media-title-wrapper">
+				<h2 _ngcontent-cor-2="" class="cdf-media-title">Search Engine and Social Media Marketing</h2>
+			</section>
+		</a>
+	</section>
+	</cdf-media>		
+			</section>
+
+			
+				
+			
+		</li><li _ngcontent-cor-3="" class="media-slider-flex-item" style="opacity: 1;">
+			
+			
+			
+			<section _ngcontent-cor-3="" class="cdf-media-pane-container">		
+				
+				<cdf-media _ngcontent-cor-3="" _nghost-cor-2="" class="type-not-supplied media-is-image">
+	
+	<cdf-image _ngcontent-cor-2="" _nghost-cor-1="">
+	<section _ngcontent-cor-1="" class="cdf-background-image" style="background-image: url(&quot;/assets/images/08c92eaf31499ae259fc.jpg&quot;);">		
+	</section>
+	</cdf-image>
+
+	
+	
+
+	<div _ngcontent-cor-2="">
+		
+								
+				
+	</div>
+
+	
+
+	
+	<section _ngcontent-cor-2="" class="cdf-media-title-container">
+		<a href="/services/media-production/" _ngcontent-cor-2="">
+			<section _ngcontent-cor-2="" class="cdf-media-title-wrapper">
+				<h2 _ngcontent-cor-2="" class="cdf-media-title">Media Productions &amp; Audio/Visual Solutions</h2>
+			</section>
+		</a>
+	</section>
+	</cdf-media>		
+			</section>
+
+			
+				
+			
+		</li>
+	</ul>
+	</cdf-media-slider>
+</stm-media-slider>
+</section>
+</stm-services-list>
+            </div>
+
+
+            
+            <div _ngcontent-cor-36="" class="projectContainer" id="projectContainer">
+                <stm-projects-list _ngcontent-cor-36="" _nghost-cor-31=""><section _ngcontent-cor-31="" class="projects-list-container text-center">
+	<section _ngcontent-cor-31="" class="row align-center">
+		<div _ngcontent-cor-31="" class="column">
+			<h2 _ngcontent-cor-31="" class="page-title">Portfolio</h2>
+		</div>
+	</section>
+	<section _ngcontent-cor-31="" class="row align-center">
+		<div _ngcontent-cor-31="" class="column large-8">
+			<h3 _ngcontent-cor-31="" class="description-portfolio">We love our clients and what we do for them. Whether they need brand development or need a new competitive edge, our digital marketing solutions are proven with increased brand awareness, customer engagement, and higher revenues. Look through our portfolio, then contact us and let us help you with your own success story.</h3>
+		</div>
+	</section>
+
+	<stm-media-slider _ngcontent-cor-31="" _nghost-cor-14=""><cdf-media-slider _ngcontent-cor-14="" _nghost-cor-3="">
+	<ul _ngcontent-cor-3="" class="media-slider-flex-container">
+
+		<li _ngcontent-cor-3="" class="media-slider-flex-item">
+			
+			
+			
+			<section _ngcontent-cor-3="" class="cdf-media-pane-container">		
+				
+				<cdf-media _ngcontent-cor-3="" _nghost-cor-2="" class="type-not-supplied media-is-image">
+	
+	<cdf-image _ngcontent-cor-2="" _nghost-cor-1="">
+	<section _ngcontent-cor-1="" class="cdf-background-image" style="background-image: url(&quot;/assets/images/0abebee5d64a27f4f273.jpg&quot;);">		
+	</section>
+	</cdf-image>
+
+	
+	
+
+	<div _ngcontent-cor-2="">
+		
+								
+				
+	</div>
+
+	
+
+	
+	<section _ngcontent-cor-2="" class="cdf-media-title-container">
+		<a href="/projects/samsung/" _ngcontent-cor-2="">
+			<section _ngcontent-cor-2="" class="cdf-media-title-wrapper">
+				<h2 _ngcontent-cor-2="" class="cdf-media-title">Samsung Mobile / Samsung Electronics</h2>
+			</section>
+		</a>
+	</section>
+	</cdf-media>		
+			</section>
+
+			
+				
+			
+		</li><li _ngcontent-cor-3="" class="media-slider-flex-item">
+			
+			
+			
+			<section _ngcontent-cor-3="" class="cdf-media-pane-container">		
+				
+				<cdf-media _ngcontent-cor-3="" _nghost-cor-2="" class="type-not-supplied media-is-image">
+	
+	<cdf-image _ngcontent-cor-2="" _nghost-cor-1="">
+	<section _ngcontent-cor-1="" class="cdf-background-image" style="background-image: url(&quot;/assets/images/38bba2114f3a19e9a441.jpg&quot;);">		
+	</section>
+	</cdf-image>
+
+	
+	
+
+	<div _ngcontent-cor-2="">
+		
+								
+				
+	</div>
+
+	
+
+	
+	<section _ngcontent-cor-2="" class="cdf-media-title-container">
+		<a href="/projects/winstar/" _ngcontent-cor-2="">
+			<section _ngcontent-cor-2="" class="cdf-media-title-wrapper">
+				<h2 _ngcontent-cor-2="" class="cdf-media-title">WinStar World Casino and Resort – Mobile App &amp; Email Marketing</h2>
+			</section>
+		</a>
+	</section>
+	</cdf-media>		
+			</section>
+
+			
+				
+			
+		</li><li _ngcontent-cor-3="" class="media-slider-flex-item">
+			
+			
+			
+			<section _ngcontent-cor-3="" class="cdf-media-pane-container">		
+				
+				<cdf-media _ngcontent-cor-3="" _nghost-cor-2="" class="type-not-supplied media-is-image">
+	
+	<cdf-image _ngcontent-cor-2="" _nghost-cor-1="">
+	<section _ngcontent-cor-1="" class="cdf-background-image" style="background-image: url(&quot;/assets/images/9be6f1ccbdc023e74ea1.jpg&quot;);">		
+	</section>
+	</cdf-image>
+
+	
+	
+
+	<div _ngcontent-cor-2="">
+		
+								
+				
+	</div>
+
+	
+
+	
+	<section _ngcontent-cor-2="" class="cdf-media-title-container">
+		<a href="/projects/metropcs/" _ngcontent-cor-2="">
+			<section _ngcontent-cor-2="" class="cdf-media-title-wrapper">
+				<h2 _ngcontent-cor-2="" class="cdf-media-title">Metro PCS – “Wildflower Festival” App</h2>
+			</section>
+		</a>
+	</section>
+	</cdf-media>		
+			</section>
+
+			
+				
+			
+		</li><li _ngcontent-cor-3="" class="media-slider-flex-item">
+			
+			
+			
+			<section _ngcontent-cor-3="" class="cdf-media-pane-container">		
+				
+				<cdf-media _ngcontent-cor-3="" _nghost-cor-2="" class="type-not-supplied media-is-image">
+	
+	<cdf-image _ngcontent-cor-2="" _nghost-cor-1="">
+	<section _ngcontent-cor-1="" class="cdf-background-image" style="background-image: url(&quot;/assets/images/b93e5220098a3794b391.jpg&quot;);">		
+	</section>
+	</cdf-image>
+
+	
+	
+
+	<div _ngcontent-cor-2="">
+		
+								
+				
+	</div>
+
+	
+
+	
+	<section _ngcontent-cor-2="" class="cdf-media-title-container">
+		<a href="/projects/shermco/" _ngcontent-cor-2="">
+			<section _ngcontent-cor-2="" class="cdf-media-title-wrapper">
+				<h2 _ngcontent-cor-2="" class="cdf-media-title">Shermco Industries Website</h2>
+			</section>
+		</a>
+	</section>
+	</cdf-media>		
+			</section>
+
+			
+				
+			
+		</li><li _ngcontent-cor-3="" class="media-slider-flex-item">
+			
+			
+			
+			<section _ngcontent-cor-3="" class="cdf-media-pane-container">		
+				
+				<cdf-media _ngcontent-cor-3="" _nghost-cor-2="" class="type-not-supplied media-is-image">
+	
+	<cdf-image _ngcontent-cor-2="" _nghost-cor-1="">
+	<section _ngcontent-cor-1="" class="cdf-background-image" style="background-image: url(&quot;/assets/images/0deec1ef177439e5b34f.jpg&quot;);">		
+	</section>
+	</cdf-image>
+
+	
+	
+
+	<div _ngcontent-cor-2="">
+		
+								
+				
+	</div>
+
+	
+
+	
+	<section _ngcontent-cor-2="" class="cdf-media-title-container">
+		<a href="/projects/agpower/" _ngcontent-cor-2="">
+			<section _ngcontent-cor-2="" class="cdf-media-title-wrapper">
+				<h2 _ngcontent-cor-2="" class="cdf-media-title">Ag-Power</h2>
+			</section>
+		</a>
+	</section>
+	</cdf-media>		
+			</section>
+
+			
+				
+			
+		</li><li _ngcontent-cor-3="" class="media-slider-flex-item">
+			
+			
+			
+			<section _ngcontent-cor-3="" class="cdf-media-pane-container">		
+				
+				<cdf-media _ngcontent-cor-3="" _nghost-cor-2="" class="type-not-supplied media-is-image">
+	
+	<cdf-image _ngcontent-cor-2="" _nghost-cor-1="">
+	<section _ngcontent-cor-1="" class="cdf-background-image" style="background-image: url(&quot;/assets/images/21026c4d3e54c9353660.jpg&quot;);">		
+	</section>
+	</cdf-image>
+
+	
+	
+
+	<div _ngcontent-cor-2="">
+		
+								
+				
+	</div>
+
+	
+
+	
+	<section _ngcontent-cor-2="" class="cdf-media-title-container">
+		<a href="/projects/onstage/" _ngcontent-cor-2="">
+			<section _ngcontent-cor-2="" class="cdf-media-title-wrapper">
+				<h2 _ngcontent-cor-2="" class="cdf-media-title">OnStage</h2>
+			</section>
+		</a>
+	</section>
+	</cdf-media>		
+			</section>
+
+			
+				
+			
+		</li>
+	</ul>
+	</cdf-media-slider>
+</stm-media-slider>
+</section>
+</stm-projects-list>
+            </div>
+		</div>
+
+
+		
+	</section>
+
+
+
+			
+			<stm-mobile-footer _ngcontent-cor-27="" _nghost-cor-26=""><footer _ngcontent-cor-26="" class="footer text-center" role="topFooter">
+	<section _ngcontent-cor-26="" class="row align-center footer__container">
+		<div _ngcontent-cor-26="" class="footer__item">
+			<div _ngcontent-cor-26="" class="flex-child-shrink">
+				<h2 _ngcontent-cor-26="" class="section-title">Address</h2>
+				<stm-address-list _ngcontent-cor-26="" _nghost-cor-7=""><stm-address-item _ngcontent-cor-7="" _nghost-cor-6=""><address _ngcontent-cor-6="" class="vcard">
+	<div _ngcontent-cor-6="" class="adr">
+		<a _ngcontent-cor-6="" href="https://www.google.com.co/maps/place/2340+E+Trinity+Mills+Rd,+Carrollton,+TX+75006,+EE.+UU./@32.9850853,-96.8736847,15z/data=!4m5!3m4!1s0x864c242bec3a9f83:0xc7ad272996e13b89!8m2!3d32.9845801!4d-96.8736591!6m1!1e1" target="_blank">
+			<div _ngcontent-cor-6="" class="street-address">2340 E. Trinity Mills Rd.</div>
+			
+
+			<div _ngcontent-cor-6="">
+				<span _ngcontent-cor-6="" class="locality">Carrollton,</span>&nbsp;
+				<abbr _ngcontent-cor-6="" class="region">TX</abbr>&nbsp;&nbsp;
+				<span _ngcontent-cor-6="" class="postal-code">75006</span>
+			</div>
+
+			<div _ngcontent-cor-6="" class="country-name">USA</div>
+		</a>
+	</div>
+</address>
+</stm-address-item></stm-address-list>
+				<a _ngcontent-cor-26="" class="emailto" href="mailto:info@screwtopmedia.com">info@screwtopmedia.com</a>
+			</div>
+		</div>
+		<div _ngcontent-cor-26="" class="footer__item">
+			<section _ngcontent-cor-26="" class="row align-middle align-center">
+				<div _ngcontent-cor-26="" class="flex-child-shrink">
+					<h2 _ngcontent-cor-26="" class="section-title">Give Us A Call</h2>
+					<stm-phone-number-list _ngcontent-cor-26="" _nghost-cor-16=""><stm-phone-number-item _ngcontent-cor-16="" _nghost-cor-15=""><div _ngcontent-cor-15="" class="phone-number-container">
+	<dl _ngcontent-cor-15="">
+		<dd _ngcontent-cor-15="">
+			<a _ngcontent-cor-15="" href="tel:214-420-2740">214-420-2740</a>
+		</dd>
+	</dl>
+</div>
+</stm-phone-number-item></stm-phone-number-list>
+				</div>
+			</section>
+		</div>
+		<div _ngcontent-cor-26="" class="footer__item">
+			<section _ngcontent-cor-26="" class="row align-middle align-center">
+				<div _ngcontent-cor-26="" class="flex-child-shrink">
+					<h2 _ngcontent-cor-26="" class="section-title">Social</h2>
+					<stm-social-media-list _ngcontent-cor-26="" _nghost-cor-22=""><stm-social-media-item _ngcontent-cor-22="" _nghost-cor-21=""><div _ngcontent-cor-21="" class="social-media-item">
+	<a _ngcontent-cor-21="" target="_blank" href="https://www.facebook.com/pages/Screwtop-Media/108209962545188">
+		<i _ngcontent-cor-21="" aria-hidden="true" class="fa fa-facebook-official"></i>
+	</a>
+</div>
+</stm-social-media-item><stm-social-media-item _ngcontent-cor-22="" _nghost-cor-21=""><div _ngcontent-cor-21="" class="social-media-item">
+	<a _ngcontent-cor-21="" target="_blank" href="https://www.linkedin.com/company/screwtop-media">
+		<i _ngcontent-cor-21="" aria-hidden="true" class="fa fa-linkedin-square"></i>
+	</a>
+</div>
+</stm-social-media-item><stm-social-media-item _ngcontent-cor-22="" _nghost-cor-21=""><div _ngcontent-cor-21="" class="social-media-item">
+	<a _ngcontent-cor-21="" target="_blank" href="https://twitter.com/ScrewTopMedia">
+		<i _ngcontent-cor-21="" aria-hidden="true" class="fa fa-twitter-square"></i>
+	</a>
+</div>
+</stm-social-media-item></stm-social-media-list>
+				</div>
+			</section>
+		</div>
+	</section>
+</footer>
+
+<footer _ngcontent-cor-26="" class="text-center footer-aditional" role="bottomFooter">
+	<div _ngcontent-cor-26="" class="column">
+		copyright <i _ngcontent-cor-26="" class="fa fa-copyright"></i> 2017. All rights reserved.
+	</div>
+</footer>
+
+</stm-mobile-footer>
+		</main>
+
+	</section>
+</section>
+</stm-mobile-header>
+
+</stm-home-mobile>
+</stm-page-home></stm-app>
+
+<script src="/assets/js/main.js"></script>
+
+<script type="text/javascript" src="/assets/lib/slideout/slideout.min.js"></script>
+<script>
+  var slideout = new Slideout({
+    'panel': document.getElementById('panel'),
+    'menu': document.getElementById('menu'),
+    'padding': 256,
+    'tolerance': 70
+  });
+
+  // Toggle button
+  document.querySelector('.btn--clear').addEventListener('click', function() {
+    slideout.toggle();
+  });
+</script>
+</body></html>

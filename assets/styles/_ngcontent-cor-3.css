@@ -1,0 +1,130 @@
+[_nghost-cor-3]
+	{
+		display: block;
+		min-height: 10rem;
+		position: relative;
+	}
+
+	.media-slider-flex-container[_ngcontent-cor-3]
+	{
+		display: -webkit-box;
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: flex;		
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		min-height: 550px;
+		margin: auto;
+	}
+
+	@media only screen and (min-width : 842px)
+	{
+		.media-slider-flex-container[_ngcontent-cor-3]
+		{
+			justify-content: flex-start;
+			max-width: 825px;
+		}		
+	}	
+
+	.media-slider-flex-item[_ngcontent-cor-3]
+	{
+		list-style: none;
+		width: 100vw;
+		height: 30vh;		
+		position: relative;
+	}
+
+	@media only screen and (min-width : 568px)
+	{
+		.media-slider-flex-item[_ngcontent-cor-3]
+		{
+			width: 48vw;
+			height: 30vh;	
+		}		
+	}	
+
+	@media only screen and (min-width : 842px)
+	{
+		.media-slider-flex-item[_ngcontent-cor-3]
+		{
+			width: 275px;
+			height: 275px;
+		}		
+	}		
+
+	cdf-media[_ngcontent-cor-3]
+	{
+		height: 100%;
+		width: 100%;
+	}
+
+	.cdf-media-pane-container[_ngcontent-cor-3]
+	{
+		cursor: pointer;
+		margin: 0;
+		max-height: 100%;
+		min-height: 100%;
+		padding: 0;
+		z-index: 10;
+
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;	
+	}
+		.cdf-media-pane-container__title[_ngcontent-cor-3]
+		{
+			color: #000;
+			font-size: 3.25rem;
+			margin: auto;
+			transform: rotate(3deg);
+		}	
+
+		.cdf-media-pane-container[_ngcontent-cor-3]:nth-child(2n)
+		{
+			.feature-list-container__item__title
+			{
+				transform: rotate(-3deg);
+			}							
+		}			
+
+
+	.cdf-info-pane-container[_ngcontent-cor-3]
+	{
+		background-color: #fff;
+		border: solid 2px #becbd2;
+		bottom: 0;
+		height: 100%;
+		left: 0;	
+		overflow: hidden;
+		padding: 2.75rem 1rem 1rem 1rem;
+		position: absolute;
+		right: 0;
+		top: 0;
+		width: 100%;
+		z-index: 100;
+	}	
+
+		.cdf-info-pane-container__wrapper[_ngcontent-cor-3]
+		{
+			z-index: 0;
+		}
+
+		.cdf-info-pane-container__title[_ngcontent-cor-3]
+		{
+			margin: 0 0 1rem 0;
+		}
+
+		.cdf-info-pane-container__description[_ngcontent-cor-3]
+		{
+			font-size: 1rem;
+			margin: 0 0 1rem 0;
+		}
+
+		.cdf-info-pane-container__button[_ngcontent-cor-3]
+		{
+		}

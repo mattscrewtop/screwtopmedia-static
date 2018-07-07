@@ -1,0 +1,46 @@
+[_nghost-cor-26] {
+  background-color: #F3F5F8;
+  border-top: solid 1px #c1c1c1;
+  display: block;
+  height: 50px;
+  opacity: 0.95; }
+
+.footer__container[_ngcontent-cor-26] {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 2rem; }
+
+.footer__item[_ngcontent-cor-26] {
+  background-color: white;
+  border: 1px dashed;
+  font-size: 1.5rem;
+  margin: 1rem .5rem;
+  padding: 1rem;
+  width: 240px; }
+
+.footer[_ngcontent-cor-26]   .section-title[_ngcontent-cor-26] {
+  font-size: 1.5rem; }
+
+.footer[_ngcontent-cor-26]   .emailto[_ngcontent-cor-26] {
+  font-size: 1rem; }
+
+.footer[_ngcontent-cor-26]   stm-address-list[_ngcontent-cor-26]     stm-address-item {
+  font-size: 1rem; }
+  .footer[_ngcontent-cor-26]   stm-address-list[_ngcontent-cor-26]     stm-address-item .vcard {
+    font-size: 1rem; }
+
+.footer[_ngcontent-cor-26]   stm-social-media-list[_ngcontent-cor-26]     stm-social-media-item {
+  display: inline-block;
+  font-size: 2rem;
+  padding: 0 1rem; }
+  .footer[_ngcontent-cor-26]   stm-social-media-list[_ngcontent-cor-26]     stm-social-media-item a {
+    color: #ccc; }
+
+.footer-aditional[_ngcontent-cor-26] {
+  background-color: #262626;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  padding: 1rem; }

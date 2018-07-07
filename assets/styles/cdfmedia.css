@@ -1,0 +1,224 @@
+
+	{
+		display: block;
+		min-height: 10rem;
+		position: relative;
+	}
+
+	.media-slider-flex-container
+	{
+		display: -webkit-box;
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: flex;		
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		min-height: 550px;
+		margin: auto;
+	}
+
+	@media only screen and (min-width : 842px)
+	{
+		.media-slider-flex-container
+		{
+			justify-content: flex-start;
+			max-width: 825px;
+		}		
+	}	
+
+	.media-slider-flex-item
+	{
+		list-style: none;
+		width: 100vw;
+		height: 30vh;		
+		position: relative;
+	}
+
+	@media only screen and (min-width : 568px)
+	{
+		.media-slider-flex-item
+		{
+			width: 48vw;
+			height: 30vh;	
+		}		
+	}	
+
+	@media only screen and (min-width : 842px)
+	{
+		.media-slider-flex-item
+		{
+			width: 275px;
+			height: 275px;
+		}		
+	}		
+
+	cdf-media
+	{
+		height: 100%;
+		width: 100%;
+	}
+
+	.cdf-media-pane-container
+	{
+		cursor: pointer;
+		margin: 0;
+		max-height: 100%;
+		min-height: 100%;
+		padding: 0;
+		z-index: 10;
+
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;	
+	}
+		.cdf-media-pane-container__title
+		{
+			color: #000;
+			font-size: 3.25rem;
+			margin: auto;
+			transform: rotate(3deg);
+		}	
+
+		.cdf-media-pane-container:nth-child(2n)
+		{
+			.feature-list-container__item__title
+			{
+				transform: rotate(-3deg);
+			}							
+		}			
+
+
+	.cdf-info-pane-container
+	{
+		background-color: #fff;
+		border: solid 2px #becbd2;
+		bottom: 0;
+		height: 100%;
+		left: 0;	
+		overflow: hidden;
+		padding: 2.75rem 1rem 1rem 1rem;
+		position: absolute;
+		right: 0;
+		top: 0;
+		width: 100%;
+		z-index: 100;
+	}	
+
+		.cdf-info-pane-container__wrapper
+		{
+			z-index: 0;
+		}
+
+		.cdf-info-pane-container__title
+		{
+			margin: 0 0 1rem 0;
+		}
+
+		.cdf-info-pane-container__description
+		{
+			font-size: 1rem;
+			margin: 0 0 1rem 0;
+		}
+
+		.cdf-info-pane-container__button
+		{
+		}
+
+		
+	{
+		cursor: pointer;
+		display: inherit;
+		height: 200px;
+		overflow: hidden;
+		width: 200px;
+	}
+
+	:hover     .cdf-background-image, :hover     .jw-preview
+	{
+		height: 110%;
+		margin: -5%;
+		overflow: hidden;
+		width: 110%;
+	}
+
+	a
+	{
+		display: block;
+		height: 100%;
+		width: 100%;		
+	}
+
+	.cdf-media-type
+	{
+		background-color: #ccc;
+		color: #fff;
+		left: 0.75rem;
+		padding: 0.25rem 0.5rem;
+		position: absolute;
+		top: 0.75rem;	
+		z-index: 100;
+	}
+
+	.cdf-media-title-container
+	{
+		bottom: 0;
+		background-color: rgba(0,0,0,0.15);
+		left: 0;
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+
+	.cdf-media-title-wrapper
+	{
+		bottom: 0;
+		left: 0;
+		padding: 10%;
+		position: absolute;
+		right: 0;
+	}
+
+	.cdf-media-title
+	{
+		color: #fff;
+		line-height: 1;
+		position: relative;
+		width: 100%;
+	}
+
+	 
+	{
+		margin: auto;
+		width: 100%;
+	}
+		
+	.cdf-background-image
+	{
+		background-repeat:no-repeat;
+		background-size: cover;
+		background-position:center center;	
+		height: 100%;
+		transition: all 0.3s ease 0s;
+		width:100%;
+	}
+
+	.page-container   header[role=page]   cdf-media {
+  height: 35rem; }
+  .page-container   header[role=page]   cdf-media     cdf-image .cdf-background-image {
+    height: 488px;
+    width: 1170px; }
+    @media only screen and (max-width: 20rem) {
+      .page-container   header[role=page]   cdf-media     cdf-image .cdf-background-image {
+        height: 244px;
+        width: 600px; } }
+
+.page-container   header[role=page]   .header-container   .row {
+  height: 35rem; }
+
+
+    

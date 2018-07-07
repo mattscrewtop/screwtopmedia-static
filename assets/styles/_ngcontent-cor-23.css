@@ -1,0 +1,67 @@
+@media only screen and (min-width: 64.0625rem) {
+  .breadcrumb-container[_ngcontent-cor-23] {
+    background-color: #303030;
+    height: 3rem; }
+    .breadcrumb-container[_ngcontent-cor-23]   #crumbs[_ngcontent-cor-23] {
+      text-align: center; }
+      .breadcrumb-container[_ngcontent-cor-23]   #crumbs[_ngcontent-cor-23]   ul[_ngcontent-cor-23] {
+        list-style: none;
+        display: inline-table;
+        margin: 0;
+        padding: 0; }
+        .breadcrumb-container[_ngcontent-cor-23]   #crumbs[_ngcontent-cor-23]   ul[_ngcontent-cor-23]   li[_ngcontent-cor-23] {
+          display: inline; }
+          .breadcrumb-container[_ngcontent-cor-23]   #crumbs[_ngcontent-cor-23]   ul[_ngcontent-cor-23]   li[_ngcontent-cor-23]   a[_ngcontent-cor-23] {
+            background: #444444;
+            color: #969696;
+            display: block;
+            float: left;
+            font-size: 1.125rem;
+            height: 3rem;
+            line-height: 3rem;
+            margin: 0;
+            padding: 0 20px 0 40px;
+            position: relative;
+            text-align: center;
+            text-decoration: none; }
+            .breadcrumb-container[_ngcontent-cor-23]   #crumbs[_ngcontent-cor-23]   ul[_ngcontent-cor-23]   li[_ngcontent-cor-23]   a[_ngcontent-cor-23]:before {
+              border-bottom: 1.5rem solid transparent;
+              border-left: 1.5rem solid #d4f2ff;
+              border-top: 1.5rem solid transparent;
+              content: "";
+              position: absolute;
+              left: 0;
+              top: 0; }
+            .breadcrumb-container[_ngcontent-cor-23]   #crumbs[_ngcontent-cor-23]   ul[_ngcontent-cor-23]   li[_ngcontent-cor-23]   a[_ngcontent-cor-23]:after {
+              border-bottom: 1.5rem solid transparent;
+              border-left: 1.5rem solid #444444;
+              border-top: 1.5rem solid transparent;
+              content: "";
+              position: absolute;
+              right: -1.5rem;
+              top: 0;
+              z-index: 1; }
+            .breadcrumb-container[_ngcontent-cor-23]   #crumbs[_ngcontent-cor-23]   ul[_ngcontent-cor-23]   li[_ngcontent-cor-23]   a[_ngcontent-cor-23]:hover {
+              background-color: #293032; }
+              .breadcrumb-container[_ngcontent-cor-23]   #crumbs[_ngcontent-cor-23]   ul[_ngcontent-cor-23]   li[_ngcontent-cor-23]   a[_ngcontent-cor-23]:hover:after {
+                border-left-color: #293032; }
+          .breadcrumb-container[_ngcontent-cor-23]   #crumbs[_ngcontent-cor-23]   ul[_ngcontent-cor-23]   li[_ngcontent-cor-23]:first-child   a[_ngcontent-cor-23] {
+            background-color: #303030;
+            padding: 0 0 0 10px; }
+            .breadcrumb-container[_ngcontent-cor-23]   #crumbs[_ngcontent-cor-23]   ul[_ngcontent-cor-23]   li[_ngcontent-cor-23]:first-child   a[_ngcontent-cor-23]:after {
+              border-bottom: 1.5rem solid transparent;
+              border-left: 1.5rem solid #303030;
+              border-top: 1.5rem solid transparent; }
+            .breadcrumb-container[_ngcontent-cor-23]   #crumbs[_ngcontent-cor-23]   ul[_ngcontent-cor-23]   li[_ngcontent-cor-23]:first-child   a[_ngcontent-cor-23]:before {
+              display: none; }
+            .breadcrumb-container[_ngcontent-cor-23]   #crumbs[_ngcontent-cor-23]   ul[_ngcontent-cor-23]   li[_ngcontent-cor-23]:first-child   a[_ngcontent-cor-23]:hover {
+              background-color: #293032; }
+              .breadcrumb-container[_ngcontent-cor-23]   #crumbs[_ngcontent-cor-23]   ul[_ngcontent-cor-23]   li[_ngcontent-cor-23]:first-child   a[_ngcontent-cor-23]:hover:after {
+                border-left-color: #293032; }
+          .breadcrumb-container[_ngcontent-cor-23]   #crumbs[_ngcontent-cor-23]   ul[_ngcontent-cor-23]   li[_ngcontent-cor-23]:last-child   a[_ngcontent-cor-23] {
+            background-color: #303030;
+            color: #F24F05;
+            cursor: default;
+            padding-right: 20px; }
+            .breadcrumb-container[_ngcontent-cor-23]   #crumbs[_ngcontent-cor-23]   ul[_ngcontent-cor-23]   li[_ngcontent-cor-23]:last-child   a[_ngcontent-cor-23]:after {
+              display: none; } }

@@ -1,0 +1,21 @@
+.jwplayer.jw-stretch-fill[_ngcontent-cor-36]   video[_ngcontent-cor-36] {
+  -o-object-fit: unset;
+     object-fit: unset; }
+
+.page-container[_ngcontent-cor-36]   header[role=page][_ngcontent-cor-36]   cdf-video-background[_ngcontent-cor-36] {
+  height: 23.75rem;
+  position: relative; }
+
+.page-container[_ngcontent-cor-36]   header[role=page][_ngcontent-cor-36]   .header-container[_ngcontent-cor-36] {
+  width: 100%; }
+  .page-container[_ngcontent-cor-36]   header[role=page][_ngcontent-cor-36]   .header-container[_ngcontent-cor-36]   .row[_ngcontent-cor-36] {
+    height: 100%; }
+  .page-container[_ngcontent-cor-36]   header[role=page][_ngcontent-cor-36]   .header-container[_ngcontent-cor-36]   h2[_ngcontent-cor-36] {
+    font-size: 1.5rem; }
+
+.page-container[_ngcontent-cor-36]   header[role=page][_ngcontent-cor-36]   .shadow[_ngcontent-cor-36] {
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 100%; }

@@ -1,0 +1,81 @@
+.nav-mobile-container[_ngcontent-cor-27] {
+  background-color: #262626;
+  background-image: url("/assets/images/Navigation-BG.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 120vh;
+  position: relative; }
+  .nav-mobile-container__wrapper[_ngcontent-cor-27] {
+    background-color: black;
+    height: 120vh; }
+  .nav-mobile-container__slideout-menu[_ngcontent-cor-27] {
+    left: 2rem;
+    position: absolute;
+    top: 1.5rem; }
+  .nav-mobile-container__title[_ngcontent-cor-27] {
+    color: #ccc;
+    font-family: "OpenSansBold";
+    font-size: 1rem;
+    letter-spacing: 0;
+    line-height: 2.25rem;
+    padding: 0.5rem 0; }
+
+header[role=logo][_ngcontent-cor-27]   h1[_ngcontent-cor-27] {
+  font-size: 1.2em;
+  padding: 12px;
+  float: left;
+  color: #fff;
+  text-decoration: none; }
+
+header[role=banner][_ngcontent-cor-27] {
+  background-color: #262626;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+  color: #fff;
+  left: 0;
+  padding: 4px 4px 0px 4px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1000; }
+  header[role=banner][_ngcontent-cor-27]   .btn--clear[_ngcontent-cor-27] {
+    color: #fff;
+    float: left;
+    padding: 6px 0 0 0;
+    min-width: 54px; }
+    header[role=banner][_ngcontent-cor-27]   .btn--clear[_ngcontent-cor-27]   img[_ngcontent-cor-27] {
+      width: 25px; }
+
+stm-nav[_ngcontent-cor-27]     ul.menu-bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 120px; }
+  stm-nav[_ngcontent-cor-27]     ul.menu-bar > li {
+    color: #fff;
+    display: block;
+    font-family: "OpenSansRegular";
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 18px 13px 16px 26px;
+    position: relative;
+    text-decoration: none; }
+    stm-nav[_ngcontent-cor-27]     ul.menu-bar > li:hover, stm-nav[_ngcontent-cor-27]     ul.menu-bar > li:active, stm-nav[_ngcontent-cor-27]     ul.menu-bar > li:focus {
+      background: #f2f2f2;
+      color: #363636;
+      cursor: pointer; }
+      stm-nav[_ngcontent-cor-27]     ul.menu-bar > li:hover a, stm-nav[_ngcontent-cor-27]     ul.menu-bar > li:active a, stm-nav[_ngcontent-cor-27]     ul.menu-bar > li:focus a {
+        color: #363636; }
+    stm-nav[_ngcontent-cor-27]     ul.menu-bar > li a {
+      color: #fff; }
+
+main[_ngcontent-cor-27] {
+  background-color: #F8F8F8;
+  padding-top: 3.5rem;
+  min-height: 120vh; }
+  @media only screen and (min-width: 64rem) {
+    main[_ngcontent-cor-27] {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+          flex-direction: column; } }

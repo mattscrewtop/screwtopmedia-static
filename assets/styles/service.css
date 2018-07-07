@@ -1,0 +1,116 @@
+          @media only screen and (min-width: 40rem) {
+  .service-list-container   h2.page-title {
+    font-size: 4rem; } }
+
+@media only screen and (max-width: 20rem) {
+  .service-list-container   h2.page-title {
+    font-size: 2rem; }
+  .service-list-container   h3.description-service {
+    font-size: 1rem;
+    padding: 0 1rem; } }
+
+.service-list-container   stm-media-slider {
+  display: block;
+  margin: 2rem 0 0 0; }
+  
+  .service-detail-container   cdf-media {
+  height: 10rem;
+  width: auto; }
+  @media only screen and (max-width: 20rem) {
+    .service-detail-container   cdf-media {
+      height: 8rem; } }
+  @media only screen and (min-width: 23.75rem) {
+    .service-detail-container   cdf-media {
+      height: 11rem; } }
+  @media only screen and (min-width: 32.5rem) {
+    .service-detail-container   cdf-media {
+      height: 15rem; } }
+  @media only screen and (min-width: 40rem) {
+    .service-detail-container   cdf-media {
+      height: 17.5rem; } }
+  @media only screen and (min-width: 48rem) {
+    .service-detail-container   cdf-media {
+      height: 19.5rem; } }
+  @media only screen and (min-width: 56rem) {
+    .service-detail-container   cdf-media {
+      height: 23rem; } }
+  @media only screen and (min-width: 64rem) {
+    .service-detail-container   cdf-media {
+      height: 27rem; } }
+  @media only screen and (min-width: 75rem) {
+    .service-detail-container   cdf-media {
+      height: 30.5rem; } }
+
+.service-detail-container__type {
+  background-color: #FF7E00;
+  color: #fff;
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  margin: 1.5rem 1rem 1.5rem 0; }
+
+.service-detail-container__title {
+  font-family: "OpenSansBold";
+  font-size: 1.75rem;
+  margin: 0.5rem 0 0.75rem 0; }
+
+.service-detail-container__intro {
+  font-family: "OpenSansBold";
+  line-height: 1.35;
+  margin: 0 0 1rem; }
+
+@media only screen and (min-width: 64.0625rem) {
+  .service-detail-container {
+    padding-top: 80px; } }
+    
+.sub-service-detail-container {
+  margin: 2rem 0; }
+  .sub-service-detail-container__title {
+    border-bottom: 1px dashed #C3C3C3;
+    font-family: "OpenSansBold";
+    font-size: 1.5rem;
+    margin: 0.5rem 0 0.75rem 0;
+    padding-bottom: 1rem; }
+  .sub-service-detail-container__body {
+    display: -ms-flexbox;
+    display: flex;
+    margin: 1rem; }
+  .sub-service-detail-container__media {
+    margin-right: 3rem;
+    width: 20rem; }
+  .sub-service-detail-container__img {
+    max-width: 20rem; }
+
+@media screen and (max-width: 40rem) {
+  .sub-service-detail-container__body {
+    -ms-flex-direction: column;
+        flex-direction: column;
+    margin: 0; }
+  .sub-service-detail-container__img {
+    margin: 0 auto;
+    max-height: 25em;
+    max-width: 100%;
+    min-height: 23em;
+    padding: 0 1em;
+    width: 100%; }
+  .sub-service-detail-container__media {
+    margin: 0;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%; }
+  .sub-service-detail-container__intro {
+    margin: 1rem; } }
+
+    @media only screen and (min-width: 40rem) {
+  .projects-list-container   h2.page-title {
+    font-size: 4rem; } }
+
+@media only screen and (max-width: 20rem) {
+  .projects-list-container   h2.page-title {
+    font-size: 2rem; }
+  .projects-list-container   h3.description-portfolio {
+    font-size: 1rem;
+    padding: 0 1rem; } }
+
+.projects-list-container   stm-media-slider {
+  display: block;
+  margin: 2rem 0 0 0; }

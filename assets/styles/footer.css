@@ -1,0 +1,72 @@
+@media only screen and (min-width: 64.0625rem) {
+  footer[role=topFooter] {
+    border-top: solid 1px #e1e8ed;
+    margin-top: 4rem;
+    padding: 2rem 0 1rem 0;
+    position: relative; }
+    footer[role=topFooter]   .footer__background {
+      bottom: 0;
+      left: 0;
+      position: absolute;
+      right: 0;
+      top: 0;
+      z-index: -1; }
+    footer[role=topFooter]   .callout {
+      background-color: rgba(0, 0, 0, 0.1);
+      border-radius: 0.325rem; }
+    footer[role=topFooter]   h2.section-title {
+      border-color: #ccc;
+      color: #ccc;
+      font-size: 1.5rem;
+      margin: auto;
+      width: 270px; }
+    footer[role=topFooter]   .emailto {
+      color: #ccc;
+      display: inline-block;
+      margin-top: 1rem; }
+    footer[role=topFooter]   stm-nav     ul.menu-bar {
+      list-style-type: none;
+      margin: 0;
+      padding: 0; }
+      footer[role=topFooter]   stm-nav     ul.menu-bar > li {
+        font-size: 1.25rem;
+        margin: 0.125rem 0; }
+        footer[role=topFooter]   stm-nav     ul.menu-bar > li a {
+          color: #ccc; }
+    footer[role=topFooter]   stm-services-list-name     ul.service-list {
+      list-style-type: none;
+      margin: 0;
+      padding: 0; }
+      footer[role=topFooter]   stm-services-list-name     ul.service-list > li {
+        font-size: 1.25rem;
+        margin: 0.125rem 0; }
+        footer[role=topFooter]   stm-services-list-name     ul.service-list > li a {
+          color: #ccc; }
+    footer[role=topFooter]   stm-address-list     .vcard, footer[role=topFooter]   stm-address-list     abbr {
+      color: #ccc;
+      font-size: 1.25rem; }
+      footer[role=topFooter]   stm-address-list     .vcard .adr a, footer[role=topFooter]   stm-address-list     abbr .adr a {
+        color: #ccc;
+        text-decoration: none; }
+    footer[role=topFooter]   stm-phone-number-list     {
+      font-size: 1.25rem; }
+      footer[role=topFooter]   stm-phone-number-list     a {
+        color: #ccc; }
+      footer[role=topFooter]   stm-phone-number-list     dl dt {
+        display: none; }
+    footer[role=topFooter]   stm-social-media-list     stm-social-media-item {
+      display: inline-block;
+      font-size: 2rem;
+      padding: 0 1rem; }
+      footer[role=topFooter]   stm-social-media-list     stm-social-media-item a {
+        color: #ccc; }
+    footer[role=topFooter]   cdf-media {
+      height: 100%;
+      width: 100%; }
+  footer[role=bottomFooter] {
+    background-color: #262626;
+    color: #636363;
+    font-family: "OpenSansRegular";
+    font-size: 0.75rem;
+    height: 3rem;
+    line-height: 3rem; } }

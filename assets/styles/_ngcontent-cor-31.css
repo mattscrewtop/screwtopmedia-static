@@ -1,0 +1,14 @@
+@media only screen and (min-width: 40rem) {
+  .projects-list-container[_ngcontent-cor-31]   h2.page-title[_ngcontent-cor-31] {
+    font-size: 4rem; } }
+
+@media only screen and (max-width: 20rem) {
+  .projects-list-container[_ngcontent-cor-31]   h2.page-title[_ngcontent-cor-31] {
+    font-size: 2rem; }
+  .projects-list-container[_ngcontent-cor-31]   h3.description-portfolio[_ngcontent-cor-31] {
+    font-size: 1rem;
+    padding: 0 1rem; } }
+
+.projects-list-container[_ngcontent-cor-31]   stm-media-slider[_ngcontent-cor-31] {
+  display: block;
+  margin: 2rem 0 0 0; }

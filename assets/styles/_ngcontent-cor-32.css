@@ -1,0 +1,88 @@
+@media only screen and (min-width: 64.0625rem) {
+  article.slide[_ngcontent-cor-32] {
+    background-color: #F24F05;
+    height: 80vh;
+    overflow: hidden;
+    position: relative; }
+    article.slide[_ngcontent-cor-32]   .row[_ngcontent-cor-32] {
+      max-width: 55rem; }
+    article.slide[_ngcontent-cor-32]   .page-title[_ngcontent-cor-32] {
+      color: #fff;
+      font-size: 3rem;
+      margin: 1rem 0 1rem 0; }
+    article.slide[_ngcontent-cor-32]   .project__subtitle[_ngcontent-cor-32] {
+      color: #fff;
+      font-family: "OpenSansRegular";
+      font-size: 1.85rem;
+      margin: 0; }
+    article.slide[_ngcontent-cor-32]   .projectIndicatorContainer[_ngcontent-cor-32] {
+      margin: 3rem 0 1.5rem 0; }
+      article.slide[_ngcontent-cor-32]   .projectIndicatorContainer[_ngcontent-cor-32]   .fa[_ngcontent-cor-32] {
+        color: #fff;
+        font-size: 1.5rem;
+        margin: 0 0.5rem 0 0; }
+    article.slide[_ngcontent-cor-32]   .learnMoreContainer__title[_ngcontent-cor-32] {
+      color: #fff;
+      font-size: 1.125rem;
+      font-family: OpenSansLight; }
+    article.slide[_ngcontent-cor-32]   .project__description[_ngcontent-cor-32] {
+      color: #fff;
+      text-align: left; }
+    article.slide[_ngcontent-cor-32]   .button.hollow[_ngcontent-cor-32] {
+      border: 1px dashed #fff;
+      color: #fff; }
+    article.slide[_ngcontent-cor-32]:nth-child(2n), article.slide[_ngcontent-cor-32]:nth-child(5n) {
+      background-color: #fff; }
+      article.slide[_ngcontent-cor-32]:nth-child(2n)   .page-title[_ngcontent-cor-32], article.slide[_ngcontent-cor-32]:nth-child(2n)   .project__subtitle[_ngcontent-cor-32], article.slide[_ngcontent-cor-32]:nth-child(2n)   .project__description[_ngcontent-cor-32], article.slide[_ngcontent-cor-32]:nth-child(5n)   .page-title[_ngcontent-cor-32], article.slide[_ngcontent-cor-32]:nth-child(5n)   .project__subtitle[_ngcontent-cor-32], article.slide[_ngcontent-cor-32]:nth-child(5n)   .project__description[_ngcontent-cor-32] {
+        color: #262626; }
+      article.slide[_ngcontent-cor-32]:nth-child(2n)   .button.hollow[_ngcontent-cor-32], article.slide[_ngcontent-cor-32]:nth-child(5n)   .button.hollow[_ngcontent-cor-32] {
+        border: 1px dashed #262626;
+        color: #262626; }
+      article.slide[_ngcontent-cor-32]:nth-child(2n)   .projectIndicatorContainer[_ngcontent-cor-32]   .fa[_ngcontent-cor-32], article.slide[_ngcontent-cor-32]:nth-child(5n)   .projectIndicatorContainer[_ngcontent-cor-32]   .fa[_ngcontent-cor-32] {
+        color: #262626; }
+      article.slide[_ngcontent-cor-32]:nth-child(2n)   .learnMoreContainer__title[_ngcontent-cor-32], article.slide[_ngcontent-cor-32]:nth-child(5n)   .learnMoreContainer__title[_ngcontent-cor-32] {
+        color: #262626; }
+    article.slide[_ngcontent-cor-32]:nth-child(3n) {
+      background-color: #262626; }
+      article.slide[_ngcontent-cor-32]:nth-child(3n)   .page-title[_ngcontent-cor-32], article.slide[_ngcontent-cor-32]:nth-child(3n)   .project__subtitle[_ngcontent-cor-32], article.slide[_ngcontent-cor-32]:nth-child(3n)   .project__description[_ngcontent-cor-32] {
+        color: #fff; }
+      article.slide[_ngcontent-cor-32]:nth-child(3n)   .button.hollow[_ngcontent-cor-32] {
+        border: 1px dashed #fff;
+        color: #fff; }
+      article.slide[_ngcontent-cor-32]:nth-child(3n)   .projectIndicatorContainer[_ngcontent-cor-32]   .fa[_ngcontent-cor-32] {
+        color: #fff; }
+      article.slide[_ngcontent-cor-32]:nth-child(3n)   .learnMoreContainer__title[_ngcontent-cor-32] {
+        color: #fff; }
+    article.slide[_ngcontent-cor-32]:nth-child(4n) {
+      background-color: #F24F05;
+      position: relative; }
+      article.slide[_ngcontent-cor-32]:nth-child(4n)   .page-title[_ngcontent-cor-32], article.slide[_ngcontent-cor-32]:nth-child(4n)   .project__subtitle[_ngcontent-cor-32], article.slide[_ngcontent-cor-32]:nth-child(4n)   .project__description[_ngcontent-cor-32] {
+        color: #262626; }
+      article.slide[_ngcontent-cor-32]:nth-child(4n)   .button.hollow[_ngcontent-cor-32] {
+        border: 1px dashed #262626;
+        color: #262626; }
+      article.slide[_ngcontent-cor-32]:nth-child(4n)   .projectIndicatorContainer[_ngcontent-cor-32]   .fa[_ngcontent-cor-32] {
+        color: #262626; }
+      article.slide[_ngcontent-cor-32]:nth-child(4n)   .learnMoreContainer__title[_ngcontent-cor-32] {
+        color: #262626; }
+    article.slide[_ngcontent-cor-32]:last-child {
+      background-color: #EDEDED; }
+      article.slide[_ngcontent-cor-32]:last-child   .page-title[_ngcontent-cor-32], article.slide[_ngcontent-cor-32]:last-child   .project__subtitle[_ngcontent-cor-32], article.slide[_ngcontent-cor-32]:last-child   .project__description[_ngcontent-cor-32] {
+        color: #262626; }
+      article.slide[_ngcontent-cor-32]:last-child   .button.hollow[_ngcontent-cor-32] {
+        border: 1px dashed #262626;
+        color: #262626; }
+      article.slide[_ngcontent-cor-32]:last-child   .projectIndicatorContainer[_ngcontent-cor-32]   .fa[_ngcontent-cor-32] {
+        color: #262626; }
+      article.slide[_ngcontent-cor-32]:last-child   .learnMoreContainer__title[_ngcontent-cor-32] {
+        color: #262626; }
+    article.slide[_ngcontent-cor-32]   .pin-wrapper[_ngcontent-cor-32] {
+      width: 100%;
+      height: 100%; }
+    article.slide[_ngcontent-cor-32]:not(:first-child)   .pin-wrapper[_ngcontent-cor-32] {
+      transform: translateY(-100%); }
+    article.slide.firstSlide[_ngcontent-cor-32]   .pin-wrapper[_ngcontent-cor-32] {
+      transform: translateY(0); }
+  article[_ngcontent-cor-32]   cdf-media[_ngcontent-cor-32] {
+    height: 420px;
+    width: 420px; } }

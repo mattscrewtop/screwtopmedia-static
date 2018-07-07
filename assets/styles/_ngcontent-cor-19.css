@@ -1,0 +1,14 @@
+@media only screen and (min-width: 40rem) {
+  .service-list-container[_ngcontent-cor-19]   h2.page-title[_ngcontent-cor-19] {
+    font-size: 4rem; } }
+
+@media only screen and (max-width: 20rem) {
+  .service-list-container[_ngcontent-cor-19]   h2.page-title[_ngcontent-cor-19] {
+    font-size: 2rem; }
+  .service-list-container[_ngcontent-cor-19]   h3.description-service[_ngcontent-cor-19] {
+    font-size: 1rem;
+    padding: 0 1rem; } }
+
+.service-list-container[_ngcontent-cor-19]   stm-media-slider[_ngcontent-cor-19] {
+  display: block;
+  margin: 2rem 0 0 0; }

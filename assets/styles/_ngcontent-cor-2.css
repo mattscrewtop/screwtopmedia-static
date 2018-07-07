@@ -1,0 +1,61 @@
+[_nghost-cor-2] 
+	{
+		cursor: pointer;
+		display: inherit;
+		height: 200px;
+		overflow: hidden;
+		width: 200px;
+	}
+
+	[_nghost-cor-2]:hover     .cdf-background-image, [_nghost-cor-2]:hover     .jw-preview
+	{
+		height: 110%;
+		margin: -5%;
+		overflow: hidden;
+		width: 110%;
+	}
+
+	a[_ngcontent-cor-2]
+	{
+		display: block;
+		height: 100%;
+		width: 100%;		
+	}
+
+	.cdf-media-type[_ngcontent-cor-2]
+	{
+		background-color: #ccc;
+		color: #fff;
+		left: 0.75rem;
+		padding: 0.25rem 0.5rem;
+		position: absolute;
+		top: 0.75rem;	
+		z-index: 100;
+	}
+
+	.cdf-media-title-container[_ngcontent-cor-2]
+	{
+		bottom: 0;
+		background-color: rgba(0,0,0,0.15);
+		left: 0;
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+
+	.cdf-media-title-wrapper[_ngcontent-cor-2]
+	{
+		bottom: 0;
+		left: 0;
+		padding: 10%;
+		position: absolute;
+		right: 0;
+	}
+
+	.cdf-media-title[_ngcontent-cor-2]
+	{
+		color: #fff;
+		line-height: 1;
+		position: relative;
+		width: 100%;
+	}
