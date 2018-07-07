@@ -1,9 +1,6 @@
-env: flex
-runtime: php
+runtime: php55
 api_version: 1
 threadsafe: yes
-runtime_config:
-  document_root: .
 
 default_expiration: "30d"
 
