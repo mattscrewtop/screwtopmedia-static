@@ -1,0 +1,60 @@
+env: flex
+runtime: php
+api_version: 1
+threadsafe: yes
+runtime_config:
+  document_root: .
+
+default_expiration: "30d"
+
+handlers:
+- url: /(.*manifest\.json)
+  mime_type: application/manifest+json
+  static_files: /\1
+  upload: /(.*manifest\.json)
+  expiration: "0m"
+  secure: always
+
+- url: /(.*\.(htm|html|css|js))$
+  static_files: /\1
+  upload: /.*\.(htm|html|css|js)$
+  expiration: "0m"
+  secure: always
+  application_readable: true
+
+- url: /(.*\.(ico|jpg|jpeg|png|gif|woff|ttf|otf|eot|svg))$
+  static_files: /\1
+  upload: /.*\.(ico|jpg|jpeg|png|gif|woff|ttf|otf|eot|svg)$
+  application_readable: true
+
+- url: /(.+).php
+  script: /\1.php
+  secure: always
+
+- url: /index.html
+  static_files: home/index.html
+  upload: home/index.html
+  secure: always
+  redirect_http_response_code: 301
+
+- url: /
+  static_files: home/index.html
+  upload: home/index.html
+  secure: always
+  redirect_http_response_code: 301
+
+# Temporary setting to keep gcloud from uploading not required files for deployment
+skip_files:
+- ^node_modules$
+#- ^app\.yaml
+- ^README\..*
+- \.gitignore
+- ^\.git$
+- ^grunt\.js
+- ^src$
+- ^e2e$
+- \.editorconfig
+- ^karma\.config\.js
+- ^package\.json
+- ^protractor\.conf\.js
+- ^tslint\.json
