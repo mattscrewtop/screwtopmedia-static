@@ -5,7 +5,7 @@
 
 
 // tick this to make the cache invalidate and update
-const CACHE_VERSION = 3102;
+const CACHE_VERSION = 3103;
 const CURRENT_CACHES =
 	{
 		'app-shell': 'app-shell-cache-v' + CACHE_VERSION,
@@ -15,11 +15,8 @@ const CURRENT_CACHES =
 //APP SHELL FILES...
 var filesToCache = 
 [
-	'/',
-	'/main.bundle.js',
-	'/vendor.bundle.js',
-	'/inline.bundle.js',
-	'/styles.bundle.js'
+	'/home/index.html',
+	'/home/'
 	//'/manifest.json'
 ];
 
