@@ -28,6 +28,12 @@ handlers:
   script: /\1.php
   secure: always
 
+- url: /(.+).html
+  static_files: /\1.html
+  upload: /.*\.html
+  expiration: "0m"
+  secure: always
+  
 - url: /index.html
   static_files: home/index.html
   upload: home/index.html
