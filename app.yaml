@@ -7,42 +7,42 @@ default_expiration: "0m"
 handlers:
 - url: /(.*manifest\.json)
   mime_type: application/manifest+json
-  static_files: /\1
-  upload: /(.*manifest\.json)
+  static_files: HTML/\1
+  upload: HTML/(.*manifest\.json)
   expiration: "0m"
   secure: always
 
 - url: /(.*\.(htm|html|css|js))$
-  static_files: /\1
-  upload: /.*\.(htm|html|css|js)$
+  static_files: HTML/\1
+  upload: HTML/.*\.(htm|html|css|js)$
   expiration: "0m"
   secure: always
   application_readable: true
 
 - url: /(.*\.(ico|jpg|jpeg|png|gif|woff|ttf|otf|eot|svg))$
-  static_files: /\1
-  upload: /.*\.(ico|jpg|jpeg|png|gif|woff|ttf|otf|eot|svg)$
+  static_files: HTML/\1
+  upload: HTML/.*\.(ico|jpg|jpeg|png|gif|woff|ttf|otf|eot|svg)$
   application_readable: true
 
 - url: /(.+).php
-  script: /\1.php
+  script: HTML/\1.php
   secure: always
 
 - url: /(.+).html
-  static_files: /\1.html
-  upload: /.*\.html
+  static_files: HTML/\1.html
+  upload: HTML/.*\.html
   expiration: "0m"
   secure: always
 
 - url: /index.html
-  static_files: home/index.html
-  upload: home/index.html
+  static_files: HTML/home/index.html
+  upload: HTML/home/index.html
   secure: always
   redirect_http_response_code: 301
 
 - url: /
-  static_files: home/index.html
-  upload: home/index.html
+  static_files: HTML/home/index.html
+  upload: HTML/home/index.html
   secure: always
   redirect_http_response_code: 301
 
