@@ -28,21 +28,21 @@ handlers:
   script: HTML/\1.php
   secure: always
 
-- url: /(.+).html
+- url: /(.+).html$
   static_files: HTML/\1.html
-  upload: HTML/.*\.html
+  upload: HTML/.*\.html$
   expiration: "0m"
   secure: always
 
-- url: /index.html
-  static_files: HTML/home/index.html
-  upload: HTML/home/index.html
-  secure: always
-  redirect_http_response_code: 301
+#- url: /index.html
+#  static_files: HTML/home/index.html
+#  upload: HTML/home/index.html
+#  secure: always
+#  redirect_http_response_code: 301
 
-- url: /
-  static_files: HTML/home/index.html
-  upload: HTML/home/index.html
+- url: /(.*)$
+  static_files: HTML/\1/index.html
+  upload: HTML/\1/index.html$
   secure: always
   redirect_http_response_code: 301
 
