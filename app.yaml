@@ -2,7 +2,7 @@ runtime: php55
 api_version: 1
 threadsafe: yes
 
-default_expiration: "30d"
+default_expiration: "0m"
 
 handlers:
 - url: /(.*manifest\.json)
@@ -33,7 +33,7 @@ handlers:
   upload: /.*\.html
   expiration: "0m"
   secure: always
-  
+
 - url: /index.html
   static_files: home/index.html
   upload: home/index.html
